@@ -2,6 +2,34 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+section h1 {
+    font-size: 55px;
+    text-align: center;
+    background-color: green;
+    color: red;
+
+
+
+}
+
+.text align {
+    text-align: center;
+}
+
 .tex-img {
     display: flex;
+}
+
+#linear-gradient {
+    background-color: green;
+    display: inline-block;
+    color: red;
+    background-image: linear-gradient(red, green);
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 5%;
 }
